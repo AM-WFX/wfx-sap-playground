@@ -1,0 +1,3 @@
+// Copyright (c) 2009-2025 SAP SE, All Rights Reserved
+sap.ui.define([],()=>{"use strict";const t={apiVersion:2};t.render=function(t,a){t.openStart("div",a);t.accessibilityState(a);t.attr("data-help-id",a.getDataHelpId());t.attr("data-sap-ushell-active",a.getActive());t.attr("data-sap-ushell-initial-app-id",a.getInitialAppId());t.attr("data-sap-ushell-current-app-id",a.getCurrentAppId());t.attr("data-sap-ushell-stateful-type",a.getStatefulType());t.attr("data-sap-ushell-framework-id",a.getFrameworkId());t.class("sapUShellApplicationContainer");t.style("height",a.getHeight());t.style("width",a.getWidth());t.openEnd();t.close("div")};return t});
+//# sourceMappingURL=ApplicationContainerRenderer.js.map
